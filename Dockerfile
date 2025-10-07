@@ -2,7 +2,7 @@
 
 FROM openjdk:21-jdk-buster
 
-LABEL version="1.9.1"
+LABEL version="1.9.2"
 LABEL homepage.group=Minecraft
 LABEL homepage.name="FTB Skies 2"
 LABEL homepage.icon="https://cdn.feed-the-beast.com/blob/49/4951517d1bd2376e48d280427f95fd313c7aa778bddff582296651cfae7d7a9a.png"
@@ -23,7 +23,7 @@ WORKDIR /data
 
 EXPOSE 25565/tcp
 
-ENV MOTD="FTB Skies 2 v1.9.1 Server Powered by Docker"
+ENV MOTD="FTB Skies 2 v1.9.2 Server Powered by Docker"
 ENV LEVEL=world
 ENV JVM_OPTS="-Xms6144m -Xmx8092m"
 
